@@ -11,6 +11,7 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    this->setWindowTitle(QString("Sudoku Auto Complete"));
     this->setFixedSize(468,520);
     ui->tableView->setGeometry(8,8,452,452);
     ui->pushButton->setGeometry(8,465,80,45);

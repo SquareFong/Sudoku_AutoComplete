@@ -33,3 +33,8 @@ HEADERS += \
 
 FORMS += \
         widget.ui
+
+RESOURCES += \
+    icons.qrc
+
+RC_ICONS = "sudoku.ico"
