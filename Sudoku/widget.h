@@ -9,7 +9,7 @@ using namespace std;
 namespace Ui {
 class Widget;
 }
-
+//test comment
 class Widget : public QWidget
 {
     Q_OBJECT
